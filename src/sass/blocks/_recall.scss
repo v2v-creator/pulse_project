@@ -1,0 +1,36 @@
+.recalls {
+  padding-bottom: 71px;
+}
+.recall {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  &__image {
+    margin-right: 62px;
+    align-items: baseline;
+  }
+  &__title {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__subtitle {
+    margin-top: 10px;
+    color: #646464;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  &__text {
+    margin-top: 19px;
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+  }
+}
+hr {
+  margin-top: 48px;
+  margin-bottom: 53px;
+  background-color: #f6f6f6;
+  border-top: none;
+}
