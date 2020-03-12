@@ -1,4 +1,4 @@
-.consultations {
+.consultation {
   min-height: 680px;
   background: url(../../img/bg2.jpg) center (center/cover) no-repeat;
   padding: 100px 0 92px 0;
@@ -9,5 +9,15 @@
     font-weight: 500;
     margin-top: 80px;
     line-height: 25px;
+  }
+  .error {
+    border: 1px solid red;
+  }
+  label.error {
+    color: white;
+    border: none;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
   }
 }
